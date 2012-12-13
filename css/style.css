@@ -4,12 +4,13 @@ body {
 
 #left {
     float:left;
-    width:500px;
+    width:300px;
 }
 
 #right {
     float:left;
     width:500px;
+    padding-left: 30px;
 }
 
 #title {
