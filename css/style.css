@@ -16,10 +16,10 @@ body {
 #title {
     font-family: sans-serif;
     font-size: 2em;
-    padding-left: 30px;
-    background-color: #660066;
     color:white;
     font-weight: bold;
+    padding-left: 30px;
+    background-color: #660066;
     width: 100%;
 }
 
@@ -49,3 +49,4 @@ body {
     border-bottom: 1px dotted;
     padding-bottom: 10px;
 }
+
