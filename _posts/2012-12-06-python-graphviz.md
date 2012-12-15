@@ -28,8 +28,17 @@ funcall_regex = re.compile("\.(\w+)\(")
 With almost no further effort required I get a beautiful graph of which method call other ones and can quickly remember how the control flows within the class.
 
 {% highlight python linenos%}
+import os
+import re
+
+function_regex = re.compile("\s?def\s(\w+)")
+funcall_regex = re.compile("\.(\w+)\(")
+
+filename = 'some/file/name.py'
+outfile = 'diagram.dot'
+
 with open(filename, 'r') as codefile:
-	with open('spec.py.dot','w') as dotfile:
+	with open(outfile,'w') as dotfile:
 		current_fun = ""
 		dotfile.write("digraph {\n")
 		for line in codefile:
@@ -47,7 +56,9 @@ I can definitely see how producing a tool that did this correctly in all cases u
 
 Now, I know: If I can just get a list of the edges of any graph, I can visualize it almost instantly!
 
-So don't forget to check out:
+The next task is to see if any of Python's libraries for parsing and compiling python code can help me analyze code more completely and correctly to generate more complete diagrams
+
+Links:
 
 [graphviz](http://www.graphviz.org)
 
