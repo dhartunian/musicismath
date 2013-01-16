@@ -1,5 +1,6 @@
 ---
 layout: post
+title:An intro to pandas using stock data from Yahoo
 tags: [python]
 ---
 
@@ -8,7 +9,7 @@ tags: [python]
 Setup
 ----
 
-This post was created using:
+This post was created using the following Python libraries:
 
 * pandas version 0.9.0
 * numpy version 1.6.2
