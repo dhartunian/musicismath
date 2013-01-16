@@ -1,6 +1,6 @@
 ---
 layout: post
-title:An intro to pandas using stock data from Yahoo
+title: An intro to pandas using stock data from Yahoo
 tags: [python]
 ---
 
