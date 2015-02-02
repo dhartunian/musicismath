@@ -1,0 +1,6 @@
+#lang pollen
+
+[Home / Contents](home.html)
+
+* [An intro to pandas using stock data from Yahoo](2013-01-15-pandas-stocks.html)
+* [Using graphviz to visualize my Python code](2012-12-14-python-graphviz.html)
