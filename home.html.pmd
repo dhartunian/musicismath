@@ -2,5 +2,6 @@
 
 [Home / Contents](home.html)
 
-* [An intro to pandas using stock data from Yahoo](2013-01-15-pandas-stocks.html)
-* [Using graphviz to visualize my Python code](2012-12-14-python-graphviz.html)
+* Nov 11 2015 -- [Thoughts on dependency injection in Java and Clojure](2015-11-11-dependencies.html)
+* Jan 15 2013 -- [An intro to pandas using stock data from Yahoo](2013-01-15-pandas-stocks.html)
+* Dec 14 2012 -- [Using graphviz to visualize my Python code](2012-12-14-python-graphviz.html)
